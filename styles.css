@@ -1,0 +1,277 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+font-size: 48px;
+color: #CD6326;
+}
+
+h2 {
+font-size: 48px;
+color: #333333;
+}
+.sh-2-grey {
+	font-size: 24px;
+	color: #666666;
+}
+
+h3 {
+	font-size:27px;
+	color: #333333;
+}
+
+h4 {
+	font-size: 22px;
+	color: #F7F7F7;	
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+	position: absolute;
+	top: 20px;
+	left: 0; 
+  right: 0;
+	max-width: 1200px;
+	margin-left: auto; 
+  margin-right: auto; 
+  display: flex;
+	justify-content:space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.logo {
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+}
+.logo p {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 15px;
+	font-size:32px;
+	color: #F7F7F7;
+}
+
+.navigation {
+	display: flex;
+	color: #F7F7F7;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .navigation {
+	width: 478px;
+}
+
+.navigation li a {
+	font-size: 23px;
+	text-decoration: none;
+	color: #F7F7F7;
+}
+
+.navigation button {
+font-family: 'Roboto', sans-serif;
+	font-size:23px;
+	color: #F7F7F7;
+	border-radius: 5px;
+	padding: 9px 23px;
+	border:  2px solid #CD6326;
+	background: transparent;
+}
+
+
+
+/* Survival */
+.survival {
+	background: url(./assets/hero-fox.png) no-repeat center top;
+	background-size: cover;
+}
+.survival-info {
+	width: 275px;
+	padding: 215px 0 240px;
+}
+.survival-info h1 {
+	letter-spacing: 2px;
+}
+
+.survival-info p {
+	color: #F7F7F7;
+	font-size: 18px;
+	line-height: 27px;
+	margin: 62px 0 50px;
+}
+
+.survival-info button {
+	font-family: 'Roboto', sans-serif;
+	background: #CD6326;
+	border-radius: 5px;
+	padding:16px 44px;
+	border: none;
+	font-size:23px;
+	color: #F7F7F7;
+}
+
+
+/* Latest Articles */
+.latest-article {
+	background: #CCCCCC;
+	text-align: center;
+	padding: 130px 0 240px
+}
+
+.latest-article p {
+	font-size: 24px;
+	color: #666666;
+	margin-top: 38px;
+}
+
+.animals-container {
+	margin-top: 127px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.animals {
+  width: 300px;
+	text-align: center;
+	padding: 255px 0px 45px
+}
+.animals p {
+	color: #F7F7F7;
+	margin-top: 21px;
+	font-size: 17px;
+}
+.deer {
+  background-image: url(./assets/deer.jpg);
+}
+
+.squirrel {
+  background-image: url(./assets/squirrel.jpg);
+}
+
+.bird {
+  background-image: url(./assets/bird.jpg);
+} 
+
+.latest-article h3 {
+	margin-top: 247px;
+}
+
+.send-email  {
+	margin-top: 67px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.send-email input {
+	font-size: 23px;
+	border: 1px solid #666666;
+	border-right: none;
+	box-sizing: border-box;
+	background: transparent;
+	margin: none;
+	width: 540px;
+	height: 61px;
+	padding-left: 15px;
+}
+
+.send-email  input:focus {
+	outline: none;
+}
+
+.send-email button {
+	font-size: 23px;
+	color: #F7F7F7;
+	border: none;
+	margin: none;
+	background: #CD6326;
+	width: 120px;
+	height: 61px;
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+/* Footer */
+
+footer {
+	background: url(./assets/footer.jpg) no-repeat center top;
+	background-size: cover;
+	height: 359px;
+}
+
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+footer .navigation {
+	padding-left: 18px;
+	width: 475px;
+}
+
+
+.social-media {
+	width: 240px;
+	display: flex;
+	color: #F7F7F7;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
+}
